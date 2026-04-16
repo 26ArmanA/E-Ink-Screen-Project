@@ -11,8 +11,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 # ─── Config ──────────────────────────────────────────────────────────────────────
 
-NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "3329d54ecbea4bbcb03a23aaebc5314b")
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "***")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "***")
 
 NUM_TOPICS    = 5
 FETCH_SIZE    = 50    # articles to pull (max 100 free tier)
