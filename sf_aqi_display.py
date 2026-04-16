@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 # ─── Config ──────────────────────────────────────────────────────────────────────
 
-AIRNOW_API_KEY = os.environ.get("AIRNOW_API_KEY", "04E5AF6F-DFFE-4F36-89E2-0FE3F1011F6E")
+AIRNOW_API_KEY = os.environ.get("AIRNOW_API_KEY", "***")
 SF_LAT         = 37.7749
 SF_LON         = -122.4194
 DISTANCE_MILES = 25
